@@ -9,21 +9,21 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex space-x-8">
             <a 
-              href="#" 
+              href="https://github.com/Gopikadevi10" 
               className="text-gray-400 hover:text-white transition-colors duration-300 hover-scale"
               aria-label="GitHub"
             >
               <Github size={24} />
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/your-linkedin-id" 
               className="text-gray-400 hover:text-white transition-colors duration-300 hover-scale"
               aria-label="LinkedIn"
             >
               <Linkedin size={24} />
             </a>
             <a 
-              href="#" 
+              href="mailto:sgopika1016@gmail.com" 
               className="text-gray-400 hover:text-white transition-colors duration-300 hover-scale"
               aria-label="Email"
             >
