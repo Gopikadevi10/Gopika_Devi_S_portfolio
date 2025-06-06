@@ -1,0 +1,418 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopika - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Gopika</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="fade-in">Hi, I'm <span class="text-purple">Gopika</span></h1>
+                    <p class="hero-subtitle fade-in">
+                        Turning code into clean, interactive websites — I'm a passionate 
+                        <span class="text-purple">Web Developer</span> building modern, user-friendly interfaces.
+                    </p>
+                    <div class="hero-buttons fade-in">
+                        <button class="btn btn-primary" onclick="scrollToSection('contact')">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </button>
+                        <button class="btn btn-outline">
+                            <i class="fas fa-download"></i> Download Resume
+                        </button>
+                    </div>
+                    <div class="hero-social fade-in">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+               <div class="image">
+  <img src="gopi.jpg" alt="gopi photo" width="100%" height="100%" style="border-radius: 70%; object-fit: cover;" />
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate web developer with a strong foundation in both frontend and backend technologies. My journey in web development started with a curiosity about how websites work, and has evolved into a deep love for creating meaningful digital experiences.</p>
+                    <p>I believe in writing clean, efficient code and staying up-to-date with the latest web technologies. My educational background has provided me with a solid understanding of programming fundamentals, while my hands-on projects have taught me the practical skills needed in real-world development.</p>
+                    <p>When I'm not coding, I enjoy learning about new technologies, contributing to open-source projects, and exploring creative solutions to complex problems. I'm always eager to take on new challenges and collaborate with fellow developers.</p>
+                </div>
+                <div class="quick-facts">
+                    <h3>Quick Facts</h3>
+                    <ul>
+                        <li><span class="fact-dot"></span>Fresh Graduate in Information Technology</li>
+                        <li><span class="fact-dot"></span>Passionate about Frontend Development</li>
+                        <li><span class="fact-dot"></span>Love for Clean Code & User Experience</li>
+                        <li><span class="fact-dot"></span>Always Learning New Technologies</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills & Technologies</h2>
+                <div class="section-line"></div>
+                <p>Here are the technologies and tools I work with to bring ideas to life</p>
+            </div>
+            <div class="skills-content">
+                <div class="skill-bars">
+                    <h3>Technical Proficiency</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>HTML5</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>CSS3</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>React</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>PHP</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>MySQL</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-tools">
+                    <h3>Tools & Technologies</h3>
+                    <div class="tools-grid">
+                        <div class="tool-item">⚡<span>HTML5</span></div>
+                        <div class="tool-item">⚡<span>CSS3</span></div>
+                        <div class="tool-item">⚡<span>JavaScript</span></div>
+                        <div class="tool-item">⚡<span>React</span></div>
+                        <div class="tool-item">⚡<span>PHP</span></div>
+                        <div class="tool-item">⚡<span>MySQL</span></div>
+                        <div class="tool-item">⚡<span>Git</span></div>
+                        <div class="tool-item">⚡<span>GitHub</span></div>
+                        <div class="tool-item">⚡<span>VS Code</span></div>
+                        <div class="tool-item">⚡<span>Figma</span></div>
+                        <div class="tool-item">⚡<span>Bootstrap</span></div>
+                        <div class="tool-item">⚡<span>Tailwind</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="section-line"></div>
+                <p>A showcase of my recent work and personal projects</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400" alt="E-Commerce Website">
+                        <div class="project-overlay">
+                            <a href="#" class="project-btn"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-btn"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Website</h3>
+                        <p>A full-featured e-commerce platform built with React and PHP backend, featuring user authentication, shopping cart, and payment integration.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400" alt="Portfolio Website">
+                        <div class="project-overlay">
+                            <a href="#" class="project-btn"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-btn"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>A responsive portfolio website showcasing web development projects with modern design and smooth animations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400" alt="Task Management App">
+                        <div class="project-overlay">
+                            <a href="#" class="project-btn"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-btn"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>A React-based task management application with drag-and-drop functionality, local storage, and user-friendly interface.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Local Storage</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400" alt="Restaurant Website">
+                        <div class="project-overlay">
+                            <a href="#" class="project-btn"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-btn"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Restaurant Website</h3>
+                        <p>A modern restaurant website with online reservation system, menu display, and contact forms.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PHP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2>Certifications & Learning</h2>
+                <div class="section-line"></div>
+                <p>Continuous learning and professional development achievements</p>
+            </div>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">🏆</div>
+                        <div class="cert-info">
+                            <h3>PHP with MySQL</h3>
+                            <p>Great Learning • 2023</p>
+                        </div>
+                        <i class="fas fa-award cert-badge"></i>
+                    </div>
+                    <div class="cert-content">
+                        <p>Comprehensive course covering PHP fundamentals, MySQL database integration, and web application development.</p>
+                        <a href="#" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">🎨</div>
+                        <div class="cert-info">
+                            <h3>UI/UX Design Fundamentals</h3>
+                            <p>Great Learning • 2023</p>
+                        </div>
+                        <i class="fas fa-award cert-badge"></i>
+                    </div>
+                    <div class="cert-content">
+                        <p>User interface and user experience design principles, wireframing, prototyping, and design thinking.</p>
+                        <a href="#" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">⚡</div>
+                        <div class="cert-info">
+                            <h3>Oracle AI Certified Foundation Associate</h3>
+                            <p>Oracle • 2024</p>
+                        </div>
+                        <i class="fas fa-award cert-badge"></i>
+                    </div>
+                    <div class="cert-content">
+                        <p>Fundamental certification covering Artificial Intelligence concepts and Oracle cloud AI tools.</p>
+                        <a href="#" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">📱</div>
+                        <div class="cert-info">
+                            <h3>Introduction to Industry 4.0 and IoT</h3>
+                            <p>SWAYAM (Elite + Silver)  • 2024</p>
+                        </div>
+                        <i class="fas fa-award cert-badge"></i>
+                    </div>
+                    <div class="cert-content">
+                        <p>Comprehensive understanding of smart manufacturing, cyber-physical systems, IoT, and Industry 4.0 standards.</p>
+                        <a href="#" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="section-line"></div>
+                <p>I'm always open to discussing new opportunities and interesting projects</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Whether you have a project in mind, want to collaborate, or just want to say hello, I'd love to hear from you. Feel free to reach out through any of the channels below.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>sgopika1016@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 9344267808</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <h3>Send a Message</h3>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="footer-text">
+                    <p>© 2024 Gopika. Made with <i class="fas fa-heart"></i> using HTML, CSS & JavaScript</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
